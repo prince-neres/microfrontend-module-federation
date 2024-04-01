@@ -1,0 +1,41 @@
+html, body, #root {
+	font-family: 'system-ui', sans-serif;
+  height: 100%;
+  margin: 0;
+}
+
+[class^="micro-app"] {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 0.3rem dashed black;
+	border-radius: 1rem;
+	margin: 1rem;
+}
+
+.core-app {
+  flex-shrink: inherit;
+  display: grid;
+	grid-template-areas:
+		"micro-app-a micro-app-a micro-app-a"
+		"micro-app-b micro-app-b micro-app-c"
+	;
+	height: 100%;
+}
+
+.micro-app-a {
+  grid-area: micro-app-a;
+	background-color: coral;
+	margin-bottom: 0rem;
+}
+
+.micro-app-b {
+  grid-area: micro-app-b;
+	background-color: cornflowerblue;
+	margin-right: 0rem;
+}
+
+.micro-app-c {
+  grid-area: micro-app-c;
+	background-color: hotpink;
+}

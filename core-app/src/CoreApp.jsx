@@ -1,4 +1,5 @@
 import React, { lazy, Suspense } from 'react';
+import "./CoreApp.css";
 
 const MicroComponentA = lazy(() => import("MicroAppA/MicroComponentA"));
 const MicroComponentB = lazy(() => import("MicroAppB/MicroComponentB"));
