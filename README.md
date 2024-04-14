@@ -1,5 +1,13 @@
 ### Como rodar?
 
+### Linux
+
+```
+./startup.sh
+```
+
+### Outros
+
 Rodar aplicação host
 
 ```
